@@ -79,6 +79,13 @@ button:hover {
 .qr {
   width: 180px;
   margin: 15px 0;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.qr:hover {
+  transform: scale(1.08);
+  filter: brightness(1.05);
 }
 
 .note {
