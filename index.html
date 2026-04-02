@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Good Morning ☀️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- MAIN CARD -->
+    <div class="card">
+      <h1>Good Morning ☀️</h1>
+      <p class="message">
+        I hope your day starts with a smile,  
+        sunshine in your heart,  
+        and a little reminder that you're special 💗
+      </p>
+
+      <button onclick="showMessage()">Tap me 💫</button>
+
+      <p id="hiddenMessage" class="hidden">
+        You're doing better than you think 🌷
+      </p>
+    </div>
+
+    <!-- QR SECTION -->
+    <div class="qr-section">
+      <h2>Scan this cutie 📱</h2>
+      <p>There's something waiting for you 👀</p>
+
+      <!-- Replace this with your QR later -->
+      <img src="qr-placeholder.png" alt="QR Code" class="qr">
+
+      <p class="note">(I'll take you somewhere special 💌)</p>
+    </div>
+
+  </div>
+
+  <script>
+    function showMessage() {
+      document.getElementById("hiddenMessage").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
